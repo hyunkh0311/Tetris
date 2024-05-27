@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Managers : MonoBehaviour
 {
-    private static readonly Managers instance; // 유일성이 보장된다
+    private static Managers instance; // 유일성이 보장된다
 
     public static Managers Instance
     {
@@ -21,18 +21,23 @@ public class Managers : MonoBehaviour
     #endregion
 
 
-    public static SceneManagerT Scene => instance.scene;
-    public static DataManager Data => instance.data;
+    public static SceneManagerT Scene => Instance.scene;
+    public static DataManager Data => Instance.data;
 
 
     private static void Init()
     {
-        GameObject go = GameObject.Find("@Managers");
-        if (go == null)
+        if (instance == null)
         {
-            go = new GameObject { name = "@Managers" };
-            go.AddComponent<Managers>();
+            GameObject go = GameObject.Find("@Managers");
+            if (go == null)
+            {
+                go = new GameObject { name = "@Managers" };
+                go.AddComponent<Managers>();
+            }
+            DontDestroyOnLoad(go);
+
+            instance = go.GetComponent<Managers>();
         }
-        DontDestroyOnLoad(go);
     }
 }

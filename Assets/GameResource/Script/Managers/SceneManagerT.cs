@@ -16,8 +16,10 @@ public class SceneManagerT : MonoBehaviour
         {
             case Define.Scene.StartScene:
                 return "StartScene";
-            case Define.Scene.GameSCene:
+            case Define.Scene.GameScene:
                 return "GameScene";
+            case Define.Scene.LoadingScene:
+                return "LoadingScene";
             default:
                 throw new ArgumentOutOfRangeException(nameof(_sceneType));
         }

@@ -11,7 +11,7 @@ public class StartSceneInit : MonoBehaviour
     {
         startBtn.OnClickAsObservable().Subscribe(_ =>
         {
-            Managers.Scene.LoadScene(Define.Scene.GameSCene);
+            Managers.Scene.LoadScene(Define.Scene.GameScene);
         });
     }
 }

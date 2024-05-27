@@ -6,7 +6,8 @@ public class Define
     {
         None = 0,
         StartScene = 1,
-        GameSCene = 2,
+        GameScene = 2,
+        LoadingScene = 3,
     }
 
 
