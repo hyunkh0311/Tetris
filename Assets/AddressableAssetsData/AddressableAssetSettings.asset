@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 468a46d0ae32c3544b7d98094e6448a9, type: 3}
+  m_Name: AddressableAssetSettings
+  m_EditorClassIdentifier: 
+  m_DefaultGroup: e518e0c5f6c66554b9ec46c08a89cae7
+  m_currentHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_OptimizeCatalogSize: 0
+  m_BuildRemoteCatalog: 0
+  m_CatalogRequestsTimeout: 0
+  m_DisableCatalogUpdateOnStart: 0
+  m_InternalIdNamingMode: 0
+  m_InternalBundleIdMode: 1
+  m_AssetLoadMode: 0
+  m_BundledAssetProviderType:
+    m_AssemblyName: 
+    m_ClassName: 
+  m_AssetBundleProviderType:
+    m_AssemblyName: 
+    m_ClassName: 
+  m_IgnoreUnsupportedFilesInBuild: 0
+  m_UniqueBundleIds: 0
+  m_EnableJsonCatalog: 0
+  m_NonRecursiveBuilding: 1
+  m_CCDEnabled: 0
+  m_maxConcurrentWebRequests: 3
+  m_UseUWRForLocalBundles: 0
+  m_BundleTimeout: 0
+  m_BundleRetryCount: 0
+  m_BundleRedirectLimit: -1
+  m_SharedBundleSettings: 0
+  m_SharedBundleSettingsCustomGroupIndex: 0
+  m_ContiguousBundles: 1
+  m_StripUnityVersionFromBundleBuild: 0
+  m_DisableVisibleSubAssetRepresentations: 0
+  m_BuiltInBundleNaming: 0
+  mBuiltInBundleCustomNaming: 
+  m_MonoScriptBundleNaming: 0
+  m_CheckForContentUpdateRestrictionsOption: 0
+  m_MonoScriptBundleCustomNaming: 
+  m_RemoteCatalogBuildPath:
+    m_Id: b88a7641a46409e40b88ec6df4b1cd09
+  m_RemoteCatalogLoadPath:
+    m_Id: 9458a66dc76850047b408725435ab85f
+  m_ContentStateBuildPathProfileVariableName: <default settings path>
+  m_CustomContentStateBuildPath: 
+  m_ContentStateBuildPath: 
+  m_BuildAddressablesWithPlayerBuild: 0
+  m_overridePlayerVersion: '[UnityEditor.PlayerSettings.bundleVersion]'
+  m_GroupAssets:
+  - {fileID: 11400000, guid: d0c78ba3e36da8348811e94454e6838d, type: 2}
+  - {fileID: 11400000, guid: 91c5491f308bb9a4cb21c3b6e1ddeebc, type: 2}
+  m_BuildSettings:
+    m_LogResourceManagerExceptions: 1
+    m_BundleBuildPath: Temp/com.unity.addressables/AssetBundles
+  m_ProfileSettings:
+    m_Profiles:
+    - m_InheritedParent: 
+      m_Id: f53efb3bb0f97084b8fd48f2cd54d736
+      m_ProfileName: Default
+      m_Values:
+      - m_Id: 78878aeecbd60844cb9005f7dabf3efd
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: 2018dd444b0df844db02639788aa4edd
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+      - m_Id: 0d8f259535ef6044e9dfcc12c862c2be
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+      - m_Id: b88a7641a46409e40b88ec6df4b1cd09
+        m_Value: 'ServerData/[BuildTarget]'
+      - m_Id: 9458a66dc76850047b408725435ab85f
+        m_Value: <undefined>
+    m_ProfileEntryNames:
+    - m_Id: 78878aeecbd60844cb9005f7dabf3efd
+      m_Name: BuildTarget
+      m_InlineUsage: 0
+    - m_Id: 2018dd444b0df844db02639788aa4edd
+      m_Name: Local.BuildPath
+      m_InlineUsage: 0
+    - m_Id: 0d8f259535ef6044e9dfcc12c862c2be
+      m_Name: Local.LoadPath
+      m_InlineUsage: 0
+    - m_Id: b88a7641a46409e40b88ec6df4b1cd09
+      m_Name: Remote.BuildPath
+      m_InlineUsage: 0
+    - m_Id: 9458a66dc76850047b408725435ab85f
+      m_Name: Remote.LoadPath
+      m_InlineUsage: 0
+    m_ProfileVersion: 1
+  m_LabelTable:
+    m_LabelNames:
+    - default
+  m_SchemaTemplates: []
+  m_GroupTemplateObjects:
+  - {fileID: 11400000, guid: 9525df89f02a69f41a1dba0c796d7e3a, type: 2}
+  m_InitializationObjects: []
+  m_CertificateHandlerType:
+    m_AssemblyName: 
+    m_ClassName: 
+  m_ActivePlayerDataBuilderIndex: 2
+  m_DataBuilders:
+  - {fileID: 11400000, guid: 1c418f8539c989e4997a96284229d56f, type: 2}
+  - {fileID: 11400000, guid: e9d390792e522db449f1ebc5ff799c9d, type: 2}
+  - {fileID: 11400000, guid: 6e8bfba308937384f9421f974c0cc9c8, type: 2}
+  m_ActiveProfileId: f53efb3bb0f97084b8fd48f2cd54d736

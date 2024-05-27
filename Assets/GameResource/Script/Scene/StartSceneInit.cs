@@ -7,14 +7,11 @@ public class StartSceneInit : MonoBehaviour
 {
     public Button startBtn;
 
-
     private void Start()
     {
         startBtn.OnClickAsObservable().Subscribe(_ =>
         {
-            SceneManager.LoadScene("GameScene");
+            Managers.Scene.LoadScene(Define.Scene.GameSCene);
         });
     }
-
-
 }
