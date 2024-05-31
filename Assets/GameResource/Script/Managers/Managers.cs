@@ -17,6 +17,7 @@ public class Managers : MonoBehaviour
 
     SceneManagerT scene = new SceneManagerT();
     DataManager data = new DataManager();
+    GameManager game = new GameManager();
 
     #endregion
 
